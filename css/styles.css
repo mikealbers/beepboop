@@ -1,1 +1,12 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
 
+#result {
+  height:200px;
+  width: 200px;
+  position: relative;
+  overflow: auto;
+  margin: 0 auto;
+}

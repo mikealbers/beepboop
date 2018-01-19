@@ -38,47 +38,26 @@ _The following specs are included in the program:_
   - Example In: 310
   - Example Out: ["I'm sorry, Dave. I'm afraid I can't do that".]
 
-* The program moves the consonant to the end of the word if it starts with a consonant - X
-  - Example In: Banana
-  - Example Out: ananaB
-  - Exception: Chin (would become hinC)
+* Program shows all numbers counting up (starting at 0) to input with rules applied.
+  - Example In: 4
+  - Example Out: "Beep! ", "Boop! ", "2 ", "I'm sorry, Dave. I'm afraid I can't do that. ", "4 "
 
-* The program adds "ay" to a multi-letter word that has just gotten a consonant added at the end. - X
-  - Example In: ananaB
-  - Example Out: ananaBay
+* Program replaces non-numerical characters on keyup with empty string
+  - Example In: A
+  - Example Out: ""
 
-* The program moves consecutive consonants to the end of the word - X
-  - Example In: Chin
-  - Example Out: hinC
-
-* The program adds "ay" to a multi-letter word that has just gotten consecutive consonants added at the end. - X (implicit in step above)
-  - Example In: inCh
-  - Example Out: inChay
-
-* The program checks if the word starts with "qu" and moves it to the end. - X
-  - Example In: queen
-  - Example Out: eenqu
-
-* The program adds "ay" to a multi-letter word that have just gotten consecutive consonants added at the end. - (implicit in the step above)
-  - Example In: eenqu
-  - Example Out: eenquay
-
-* The program takes in a sentence and applies the above rules to each word.
- - Example In: I am Oliver Queen.
- - Example Out: Iway amWay Oliverway eenQuay
- - Example In: This is a test of the program
- - Example Out: isThay isway away esttay ofway ethay ogrampray
-
-* Pretty up the sentence
-
-* Output sentence in pig Latin
-
-* Refactor code
+* Program displays "Quit trying to break it." if the user manages to smash a non-numerical in before JS can replace with an empty string"".
+  - Example In: A
+  - Example Out: "Quit trying to break it."
 
 ## Setup/Installation Requirements
 
 * _Download the files from the repository_
 * _Open the files with the browser of your choice._
+
+* _or_
+
+* _live site at_ file:///Users/Guest/Desktop/beep%20boop/index.html
 
 ## Known Bugs
 
