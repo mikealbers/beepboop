@@ -42,13 +42,17 @@ _The following specs are included in the program:_
   - Example In: 4
   - Example Out: "Beep! ", "Boop! ", "2 ", "I'm sorry, Dave. I'm afraid I can't do that. ", "4 "
 
-* Program replaces non-numerical characters on keyup with empty string
+* Program replaces non-numerical characters on keyup with empty string.
   - Example In: A
   - Example Out: ""
 
-* Program displays "Quit trying to break it." if the user manages to smash a non-numerical in before JS can replace with an empty string"".
+* Program displays a unique message if the user manages to smash a non-numerical in before JS can replace with an empty string.
   - Example In: A
-  - Example Out: "Quit trying to break it."
+  - Example Out: "Quit trying to break it!"
+
+* Program displays a unique message if the input is over 10000.
+  - Example In: 2308472309472097402937420937
+  - Example Out: "Woah! That's a lot to compute! Try something smaller."
 
 ## Setup/Installation Requirements
 
