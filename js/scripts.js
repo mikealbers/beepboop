@@ -10,7 +10,7 @@ $(document).ready(function() {
     var numberNumber = numberInput + 1;
     var numberOutput = [];
     //HTML inserts
-    var listItems = ["<li>Beep!</li>","<li>Boop!</li>","<li>Quit trying to break it. Please enter a number.</li>","<li>I'm sorry, Dave. I'm afraid I can't do that.</li>","<li>Woah! That's a lot to compute! Try something smaller.</li>"]
+    var listItems = ["<li>Beep!</li>","<li>Boop!</li>","<li>Quit trying to break it. Please enter a whole number.</li>","<li>I'm sorry, Dave. I'm afraid I can't do that.</li>","<li>Woah! That's a lot to compute! Try something smaller.</li>"]
 
     //Loop through numbers counting up to input and push to array.
     if (isNaN(numberNumber) === true) {
