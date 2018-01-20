@@ -22,10 +22,6 @@ _The following specs are included in the program:_
 
 * Take a numerical input from user and return all numbers up to that number, replacing numbers according to the above rules.
 
-* Program does nothing to alphabetical characters.
-  - Example Input: Let me try to break your code!
-  - Example Output: Please enter a number
-
 * Program replaces 0 with "Beep!"
   - Example Input: 0
   - Example Output: ["Beep!"]
@@ -61,7 +57,7 @@ _The following specs are included in the program:_
 
 * _or_
 
-* _live site at_ file:///Users/Guest/Desktop/beep%20boop/index.html
+* _live site at_ https://mikealbers.github.io/beepboop
 
 ## Known Bugs
 
